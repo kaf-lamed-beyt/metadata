@@ -1,13 +1,15 @@
 {
-  "name": "metadata",
-  "version": "1.0.0",
+  "name": "three-data",
+  "version": "0.0.1",
   "description": "All the SEO meta tags you might need in one React component",
-  "main": "index.js",
+  "main": "./dist/esm/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "Caleb A. Olojo (@kaf-lamed-beyt)",
+  "keywords": ["react", "meta tags", "SEO"],
+  "author": "kaf-lamed-beyt",
   "license": "MIT",
   "dependencies": {
     "@types/node": "^20.3.3",

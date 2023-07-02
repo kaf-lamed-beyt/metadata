@@ -62,6 +62,12 @@ Below are some screenshots of my website's preview
 
 Try sharing your link on Slack or Discord, it works fine there too.
 
+Another optional prop you might want to consider using is `contentType`. Under the hood, it uses the `og:type` meta tag attribute. 
+
+This attribute helps you describe the type of content you share. Is it a blog post, pictures, videos or whatever you want really. By default the value is "website", since it is assumed that you're using this component on the web.
+
+There's a list that covers all the available values [here](https://ogp.me/#types)
+
 # Contributing
 
 Want to contribute? Please feel free to create an issue or submit a Pull Request.
