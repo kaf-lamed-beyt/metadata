@@ -9,7 +9,7 @@ interface metaProps {
   contentType?: string;
 }
 
-const MetaData = ({
+export const MetaData = ({
   url,
   children,
   pageTitle,
@@ -49,5 +49,3 @@ const MetaData = ({
     </head>
   );
 };
-
-export default MetaData;
