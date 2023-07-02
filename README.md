@@ -54,11 +54,15 @@ I've tested `MetaData` and this is what your website metadata will look like on 
 
 Below are some screenshots of my website's preview
 
-![Preview of Caleb's website on Google Search](./public/img/google.png)
+|Facebook | Twitter |
+|-----------------|-----|
+|![Preview of Caleb's website on Facebook](./public/img/facebook.png)| ![Preview of Caleb's website on Twitter](./public//img/twitter.png)|
 
-![Preview of Caleb's website on Twitter](./public//img/twitter.png)
 
-![Preview of Caleb's website on Facebook](./public/img/facebook.png)
+| Google Search |
+|---------------|
+|![Preview of Caleb's website on Google Search](./public/img/google.png)|
+
 
 Try sharing your link on Slack or Discord, it works fine there too.
 
