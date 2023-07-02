@@ -68,6 +68,33 @@ This attribute helps you describe the type of content you share. Is it a blog po
 
 There's a list that covers all the available values [here](https://ogp.me/#types)
 
+# Usage with Next.js
+
+When you try to use `<MetaData />` in a Next.js project, you might end up with an error similar to the one in the image below
+
+![Hydration error with Next.js when you try to use MetaData](./public/img/nextjs-hydration-error.png)
+
+The reason you're seeing this error could be because you have `_document.ts|js` file in `/pages` and you've imported `<Head />` from `"next/document``. 
+
+```tsx
+import NextDocument, { Html, Head, Main, NextScript } from "next/document";
+
+export default class Document extends NextDocument {
+  render() {
+    return (
+      <Html lang="en">
+        <Head />
+        <body>
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    );
+  }
+}
+```
+Removing it from the markup fixes the error you're seeing.
+
 # Contributing
 
 Want to contribute? Please feel free to create an issue or submit a Pull Request.
