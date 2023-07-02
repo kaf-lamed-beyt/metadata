@@ -1,0 +1,19 @@
+{
+  "name": "metadata",
+  "version": "1.0.0",
+  "description": "All the SEO meta tags you might need in one React component",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Caleb A. Olojo (@kaf-lamed-beyt)",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.3.3",
+    "@types/react": "^18.2.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.1.6"
+  }
+}
