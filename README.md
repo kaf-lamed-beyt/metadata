@@ -1,12 +1,12 @@
-# metadata
+# metadatah
 
 All the SEO meta tags you might need in one React component.
 
-# Why?
+## Why?
 
 I can NOT entirely say that there's a motivation behind building this, to be honest. I was just tired of having to copy the same meta tags that I've been using for my blog whenever I share an article on the internet &mdash; mostly on social platforms.
 
-# What are the "perks" of using it?
+## What are the "perks" of using it?
 
 Well... for one, you won't have to copy meta tags from one component to the other.
 
@@ -31,7 +31,7 @@ yarn add three-data
 Import the component into any of your pages, or wherever it is needed like so:
 
 ```jsx
-import { MetaData } from "three-data";
+import { MetaData } from "metadatah";
 
 export default function pageComponent() {
   return (
@@ -70,7 +70,7 @@ This attribute helps you describe the type of content you share. Is it a blog po
 
 There's a list that covers all the available values [here](https://ogp.me/#types)
 
-# Usage with Next.js
+## Usage with Next.js
 
 When you try to use `<MetaData />` in a Next.js project, you might end up with an error similar to the one in the image below
 
@@ -113,10 +113,10 @@ It is recommended that you use the optional prop &mdash; `next` if you want comp
 </MetaData>
 ```
 
-# Contributing
+## Contributing
 
 Want to contribute? Please feel free to create an issue or submit a Pull Request.
 
-# License
+## License
 
 [MIT](LICENSE)
