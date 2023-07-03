@@ -10,7 +10,7 @@ I can NOT entirely say that there's a motivation behind building this, to be hon
 
 Well... for one, you won't have to copy meta tags from one component to the other.
 
-And if you're that person that goes: **"I can just build this myself"**. Well, you're in luck. Because yo don't have to do that.
+And if you're that person that goes: **"I can just build this myself"**. Well, you're in luck. Because you don't have to do that.
 
 `<Metadata />` accepts a `children` prop, so you can still add other HTML tags that goes into the `<head>` element.
 
@@ -25,7 +25,7 @@ And if you're that person that goes: **"I can just build this myself"**. Well, y
 You can use the component by installing it from the NPM registry.
 
 ```bash
-yarn add three-data
+yarn add metadatah
 ```
 
 Import the component into any of your pages, or wherever it is needed like so:
