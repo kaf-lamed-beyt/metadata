@@ -5,7 +5,7 @@ interface metaProps {
   url: string;
   pageTitle: string;
   description: string;
-  next: React.ReactNode;
+  next?: React.ReactNode;
   children?: React.ReactNode;
   previewImage?: string;
   contentType?: string;
