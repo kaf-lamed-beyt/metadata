@@ -1,6 +1,6 @@
 {
   "name": "metadatah",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "All the SEO meta tags you might need in one React component",
   "main": "./dist/esm/index.js",
   "module": "./dist/esm/index.js",
