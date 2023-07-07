@@ -33,6 +33,10 @@ Import the component into any of your pages, or wherever it is needed like so:
 ```jsx
 import { MetaData } from "metadatah";
 
+OR;
+
+const { MetaData } = require("metadatah");
+
 export default function pageComponent() {
   return (
     <>

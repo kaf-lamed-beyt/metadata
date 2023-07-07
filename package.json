@@ -1,6 +1,6 @@
 {
   "name": "metadatah",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "All the SEO meta tags you might need in one React component",
   "main": "./dist/esm/index.js",
   "module": "./dist/esm/index.js",
@@ -22,5 +22,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.1.6"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/kaf-lamed-beyt/metadata/issues"
+  },
+  "homepage": "https://github.com/kaf-lamed-beyt/metadata#readme"
 }
